@@ -41,9 +41,9 @@ const sRouter = new web3.eth.Contract(
 const V2_FACTORY_TO_USE = uFactory;
 const V2_ROUTER_TO_USE = uRouter;
 
-const UNLOCKED_ACCOUNT = "0xdEAD000000000000000042069420694206942069"; // SHIB Unlocked Account
+const UNLOCKED_ACCOUNT = "0xf977814e90da44bfa03b6295a0616a897441acec"; // SHIB Unlocked Account
 const ERC20_ADDRESS = process.env.ARB_AGAINST;
-const AMOUNT = "40500000000000"; // 40,500,000,000,000 SHIB -- Tokens will automatically be converted to wei
+const AMOUNT = "10000000"; // 40,500,000,000,000 SHIB -- Tokens will automatically be converted to wei
 const GAS = 450000;
 
 // -- SETUP ERC20 CONTRACT & TOKEN -- //

@@ -7,7 +7,7 @@ let web3;
 
 if (!config.PROJECT_SETTINGS.isLocal) {
   web3 = new Web3(
-    `wss://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`
+    `wss://ws-nd-655-388-745.p2pify.com/${process.env.ALCHEMY_API_KEY}`
   );
 } else {
   web3 = new Web3("ws://127.0.0.1:7545");

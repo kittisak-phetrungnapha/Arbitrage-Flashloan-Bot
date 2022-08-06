@@ -292,10 +292,19 @@ const executeTrade = async (_routerPath, _token0Contract, _token1Contract) => {
       .executeTrade(
         startOnUniswap,
         _token0Contract._address,
-        _token1Contract._address,
+        process.env.ARB_POOL,
         amount
       )
       .send({ from: account, gas: gas });
+
+    // await arbitrage.methods
+    //   .executeTrade(
+    //     startOnUniswap,
+    //     _token0Contract._address,
+    //     _token1Contract._address,
+    //     amount
+    //   )
+    //   .send({ from: account, gas: gas });
   }
 
   console.log(`Trade Complete:\n`);
