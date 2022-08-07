@@ -26,6 +26,7 @@
     "big.js": "^6.1.1",
     "dotenv": "^10.0.0",
     "solc": "^0.8.15",
+    "truffle-plugin-verify": "^0.5.27",
     "web3": "^1.6.1"
   }
 }
